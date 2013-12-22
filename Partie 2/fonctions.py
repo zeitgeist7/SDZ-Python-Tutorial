@@ -21,3 +21,9 @@ fruitList = ['oranges\n', 'goyaves\n', 'goyaves de chine\n', 'abricot\n', 'jambl
 fruits = open("./fruits.txt", "w")
 fruits.writelines(fruitList)
 fruits.close()
+
+# Read the bloody file
+someFruits = open("fruits.txt", 'r')
+for line in someFruits :
+		print (line)
+someFruits.close()
