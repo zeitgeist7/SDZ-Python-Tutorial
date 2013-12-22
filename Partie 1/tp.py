@@ -17,7 +17,7 @@ print("3 : Entre 100 - 1000")
 print("4 : Entre 1000 - 10000")
 
 # prompt for choice
-choice = int(input("--> "))
+choice = eval(input("--> "))
 
 # inform if bad choice
 if 0 > choice and choice > 5 :
@@ -43,7 +43,7 @@ print("\n\nLe juste prix est :", leJustePrix, "\n\n")
 
 numberOfAnswers = 0
 while True :
-		answer = int(input())
+		answer = eval(input())
 		if answer == leJustePrix :
 				print("Vous avez trouvez la solution avec ", numberOfAnswers, "essais.")
 				break
