@@ -1,0 +1,5 @@
+# Test data for file
+
++,-,*,/,%,noOp					# Some basic operations plus one invalid operation
+2 7 22 12 2.55 100.11 3.142		# Some numbers to apply the operations
+[0, 7, 281]						# List of other number
