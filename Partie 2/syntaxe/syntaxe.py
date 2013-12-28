@@ -73,6 +73,8 @@ for operation in operations :
 				nomOperation = 'modulo'
 		elif operation == '**'
 				nomOperation = 'puissance'
+		elif operation == '//'
+				nomOperation = 'divisionEntiere'
 		else :
 				print('The operation marked \'%s\' is not known.' %(operation))
 
