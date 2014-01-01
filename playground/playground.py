@@ -6,3 +6,8 @@ So far, Python seems a bit boring. But this tutorial seems promising.
 Do not expect to be amazed if you have opened this file by curiousity!!!
 '''
 
+from funckyModule import *
+
+printHello()
+printWorld()
+steveSaid()
