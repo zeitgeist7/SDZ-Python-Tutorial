@@ -6,6 +6,13 @@ So far, Python seems a bit boring. But this tutorial seems promising.
 Do not expect to be amazed if you have opened this file by curiousity!!!
 '''
 
+from Person import *
+
+zeitgeist7 = Person('rajiv', 'jhoomuck', 'male', 'Jayantee')
+print(zeitgeist7.parent)
+
+
+
 '''
 def factorial(number) :
 	"""
